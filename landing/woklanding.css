@@ -10,31 +10,93 @@ body{
     width: 100vw;
     padding: 2px;
     margin: 0;
-    font-size: 2em;
+    font-size: 3em;
     top: 0;
     left: 0;
 }
 
 .wok{
+    position: relative;
+    float: left;
+    letter-spacing: 5px;
     color: red;
     margin: 0;
     padding: 0 0 0 10px;
 }
 
-.links{
+ul{
+    width: 250px;
+    align-content: center;
+}
+
+
+ul.links{
     position: absolute;
-    display: inline;
-    top: 0;
     right: 0;
+    display: inline-block;
     margin: 0;
-    padding: 0 0 0 10px;
+    padding: 10px 10px 0 10px;
+}
+
+li{
+    font-size: large;
+    position: relative;
+    right: 0;
+    float: left;
+    margin: 3px 8px 0;
+    color: red;
 
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+    text-decoration: underline;
+    background-color: #dcdada;
+    border-radius: 5px;
+}
+
 .fullstack{
+    letter-spacing: 5px;
+    clear: both;
     background: red;
     color: white;
     padding: 0 0 0 10px;
     margin: 0;
+}
+/* end of header styling details */
+
+@media only screen and (max-width: 680px) {
+
+ul.links{
+    visibility: hidden;
+}
+
+.menu-icon{
+    visibility: visible;
+    border: 2px solid red;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 3px;
+    float: right;
+    margin: 10px 10px 0 0; 
+}
+
+.line{
+    position: relative;
+    visibility: inherit;
+    vertical-align: inherit;
+    width: 40px;
+    height: 5px;
+    background: red;
+    margin: 6px 0;
+    border-radius: 5px;
+}
+
 
 }
