@@ -1,8 +1,40 @@
-html{
-    margin: 0;
-    padding: 0;
-}
-
 body{ 
     font-family: 'Oswald', sans-serif;
+}
+
+/* NAVBAR contents */
+
+.navbar{
+    position: absolute;
+    background: #e8e8e8;
+    width: 100vw;
+    padding: 2px;
+    margin: 0;
+    font-size: 2em;
+    top: 0;
+    left: 0;
+}
+
+.wok{
+    color: red;
+    margin: 0;
+    padding: 0 0 0 10px;
+}
+
+.links{
+    position: absolute;
+    display: inline;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0 0 0 10px;
+
+}
+
+.fullstack{
+    background: red;
+    color: white;
+    padding: 0 0 0 10px;
+    margin: 0;
+
 }
