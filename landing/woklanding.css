@@ -56,7 +56,6 @@ a {
 a:hover{
     color: red;
     text-decoration: underline;
-    background-color: #dcdada;
     border-radius: 5px;
 }
 
@@ -87,16 +86,20 @@ ul.links{
     margin: 10px 10px 0 0; 
 }
 
+.menu-icon:hover{
+    background-color: white;
+    border: 3px solid red;
+    box-shadow: 0 0 2px 0 rgb(169, 4, 4);
+}
+
 .line{
     position: relative;
     visibility: inherit;
-    vertical-align: inherit;
     width: 40px;
     height: 5px;
     background: red;
     margin: 6px 0;
     border-radius: 5px;
 }
-
 
 }
