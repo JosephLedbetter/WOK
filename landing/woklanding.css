@@ -6,9 +6,9 @@ body{
 
 .navbar{
     position: absolute;
-    background: #e8e8e8;
+    background: #edeaea;
     width: 100vw;
-    padding: 2px;
+    padding: 10px 0 0 2px;
     margin: 0;
     font-size: 3em;
     top: 0;
@@ -19,9 +19,9 @@ body{
     position: relative;
     float: left;
     letter-spacing: 5px;
-    color: red;
+    color: #df1d1d;
     margin: 0;
-    padding: 0 0 0 10px;
+    padding: 5px 0 5px 10px;
 }
 
 ul{
@@ -44,7 +44,8 @@ li{
     right: 0;
     float: left;
     margin: 3px 8px 0;
-    color: red;
+    padding: 5px 0 0 0;
+    color: #df1d1d;
 
 }
 
@@ -62,11 +63,13 @@ a:hover{
 .fullstack{
     letter-spacing: 5px;
     clear: both;
-    background: red;
+    background: #df1d1d;
     color: white;
     padding: 0 0 0 10px;
     margin: 0;
+    height: 75px
 }
+
 /* end of header styling details */
 
 @media only screen and (max-width: 680px) {
@@ -89,16 +92,18 @@ ul.links{
 .menu-icon:hover{
     background-color: white;
     border: 3px solid red;
+    width: 41px;
+    height: 41px;
     box-shadow: 0 0 2px 0 rgb(169, 4, 4);
 }
 
 .line{
     position: relative;
     visibility: inherit;
-    width: 40px;
+    width: 30px;
     height: 5px;
     background: red;
-    margin: 6px 0;
+    margin: 4px 0;
     border-radius: 5px;
 }
 
