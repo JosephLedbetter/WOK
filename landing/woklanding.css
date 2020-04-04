@@ -70,9 +70,26 @@ a:hover{
     height: 75px
 }
 
+/* dropdown asset for responsive media query @ 640
+*/
+
+.dropdown{
+    font-family: 'Oswald', sans-serif;
+    font-size: x-large;
+    width: 125px;
+    height: 75px;
+    position: absolute;
+    right: 0;
+    top: 84px;
+    background:green;
+    z-index: 10px;
+    visibility: hidden;
+}
+
+
 /* end of header styling details */
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 640px) {
 
 ul.links{
     visibility: hidden;
@@ -105,6 +122,10 @@ ul.links{
     background: red;
     margin: 4px 0;
     border-radius: 5px;
+}
+
+.dropdown{
+  visibility: visible;
 }
 
 }
